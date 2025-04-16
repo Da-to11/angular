@@ -10,32 +10,32 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'angular';
   
-  // clicker = "Click Me"
+  clicker = "Click Me"
   
 
-  // not = ""
-  // cliked = "Clicked"
-  // unclicked = "Unclicked"
+  not = ""
+  cliked = "Clicked"
+  unclicked = "Unclicked"
 
-  // fun1(){
-  //   this.not == "" ? this.not = this.cliked : this.not = this.unclicked
-  //   this.unclicked == "Unclicked" ? this.unclicked = this.cliked : this.unclicked = "Unclicked"
+  fun1(){
+    this.not == "" ? this.not = this.cliked : this.not = this.unclicked
+    this.unclicked == "Unclicked" ? this.unclicked = this.cliked : this.unclicked = "Unclicked"
 
-  // }
-
-
-  // imgsom = "https://img.freepik.com/premium-vector/car-full-size-body-icon-broken-line_1076610-24338.jpg?semt=ais_hybrid&w=740"
-
-  // imgsom2 = "https://static.vecteezy.com/system/resources/previews/014/487/696/non_2x/car-pictogram-minimal-line-icon-transportation-illustration-vector.jpg"
-
-  // change(){
-  //   this.imgsom == "https://img.freepik.com/premium-vector/car-full-size-body-icon-broken-line_1076610-24338.jpg?semt=ais_hybrid&w=740" ? this.imgsom = this.imgsom2 : this.imgsom = "https://img.freepik.com/premium-vector/car-full-size-body-icon-broken-line_1076610-24338.jpg?semt=ais_hybrid&w=740"
-  // }
+  }
 
 
-  // aler(){
-  //   alert("Clicked")
-  // }
+  imgsom = "https://img.freepik.com/premium-vector/car-full-size-body-icon-broken-line_1076610-24338.jpg?semt=ais_hybrid&w=740"
+
+  imgsom2 = "https://static.vecteezy.com/system/resources/previews/014/487/696/non_2x/car-pictogram-minimal-line-icon-transportation-illustration-vector.jpg"
+
+  change(){
+    this.imgsom == "https://img.freepik.com/premium-vector/car-full-size-body-icon-broken-line_1076610-24338.jpg?semt=ais_hybrid&w=740" ? this.imgsom = this.imgsom2 : this.imgsom = "https://img.freepik.com/premium-vector/car-full-size-body-icon-broken-line_1076610-24338.jpg?semt=ais_hybrid&w=740"
+  }
+
+
+  aler(){
+    alert("Clicked")
+  }
 
 
 
