@@ -1,0 +1,49 @@
+
+
+.head{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    nav{
+        width: 800px;
+        height: 80px;
+         ul{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+    
+            li{
+                a{
+                    color: white;
+                    font-size: 18px;
+                }
+
+                a:hover{
+                    color: rgb(63, 174, 225, 0.593);
+                    transition: 500ms;
+                }
+            }
+         }
+    
+    }
+    
+
+    .logo{
+        width: 500px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3{
+            cursor: pointer;
+        }
+    }
+}
+
+
+
