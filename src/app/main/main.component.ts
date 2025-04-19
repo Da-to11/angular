@@ -18,6 +18,7 @@ export class MainComponent {
 
   add(){
     this.textArr.push(this.text)
+    this.text = ""
   }
 
 
