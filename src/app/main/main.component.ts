@@ -28,4 +28,52 @@ export class MainComponent {
     }
   }
 
+
+
+  name = ""
+  age = ""
+  grade = ""
+  subjects = ""
+  street = ""
+  city = ""
+  zip = ""
+
+  userArry : any[] = []
+
+
+
+  addButton(){
+
+    this.userArry.push({
+      name1: this.name,
+      Age: this.age,
+      Grade: this.grade,
+      Subject: this.subjects,
+
+      Addres:{
+        Street: this.street,
+        City: this.city,
+        Zip: this.zip
+      }
+    })
+
+    this.name = ""
+    this.age = ""
+    this.grade = ""
+    this.subjects = ""
+    this.street = ""
+    this.city = ""
+    this.zip = ""
+
+    console.log(this.userArry)
+  
+  }
+
+  showli = "SHOW"
+  showlist = false
+
+  showBitton(){
+    this.showli == "SHOW" ? this.showli = "HIDE" : this.showli = "SHOW"
+    this.showlist == false ? this.showlist = true : this.showlist = false
+  }
 }

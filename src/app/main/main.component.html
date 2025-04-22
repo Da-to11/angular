@@ -1,5 +1,41 @@
-<div class="for-inp">
-    <input [(ngModel)]="text" type="text" name="" id="">
-    <button (click)="add()" >PUSH</button>
-    <button (click)="show()" >SHOW IN CONSOL</button>
+
+<div class="box-main">
+    <div class="for-inp">
+        <input [(ngModel)]="text" type="text" name="" id="">
+        <button (click)="add()" >PUSH</button>
+        <button (click)="show()" >SHOW IN CONSOL</button>
+    </div>
+
+
+
+    <div class="for-inp2">
+        <input [(ngModel)]="name" placeholder="Name" type="text">
+        <input [(ngModel)]="age" placeholder="Age" type="text">
+        <input [(ngModel)]="grade" placeholder="grade" type="text">
+        <input [(ngModel)]="subjects" placeholder="subjects" type="text">
+        <input [(ngModel)]="street" placeholder="street" type="text">
+        <input [(ngModel)]="city" placeholder="City" type="text">
+        <input [(ngModel)]="zip" placeholder="Zip" type="text">
+        <button (click)="addButton()" >ADD</button>
+        <button (click)="showBitton()" >{{showli}}</button>
+    </div>
+
+
+
+<div *ngIf="showlist" class="parentof">
+    <div *ngFor="let el of userArry" class="for-inp3">
+        <h1>{{el.name1}}</h1>
+        <p>age : {{el.Age}}</p>
+        <p>grade : {{el.Grade}}</p>
+        <p>subject : {{el.Subject}}</p>
+        <p>street : {{el.Addres.Street}}</p>
+        <p>city : {{el.Addres.City}}</p>
+        <p>zip : {{el.Addres.Zip}}</p>
+    </div>
 </div>
+
+
+</div>
+
+
+
