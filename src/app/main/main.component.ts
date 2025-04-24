@@ -31,12 +31,12 @@ export class MainComponent {
 
 
   name = ""
-  age = ""
-  grade = ""
+  age = null
+  grade = null
   subjects = ""
   street = ""
   city = ""
-  zip = ""
+  zip = null
 
   userArry : any[] = []
 
@@ -58,12 +58,12 @@ export class MainComponent {
     })
 
     this.name = ""
-    this.age = ""
-    this.grade = ""
+    this.age = null
+    this.grade = null
     this.subjects = ""
     this.street = ""
     this.city = ""
-    this.zip = ""
+    this.zip = null
 
     console.log(this.userArry)
   
