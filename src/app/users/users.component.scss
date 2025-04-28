@@ -1,0 +1,29 @@
+
+.conteiner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0px 10px 0px; 
+    .cards{
+        width: 200px;
+        height: 400px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+
+        img{
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+        }
+
+
+    }
+}

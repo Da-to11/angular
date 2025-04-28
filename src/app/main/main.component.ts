@@ -11,69 +11,69 @@ import { FormsModule } from '@angular/forms';
 export class MainComponent {
 
 
-  textArr : string[] = []
+  // textArr : string[] = []
 
-  text = ""
-
-
-  add(){
-    this.textArr.push(this.text)
-    this.text = ""
-  }
+  // text = ""
 
 
-  show(){
-    for(let el of this.textArr){
-      console.log(el)
-    }
-  }
+  // add(){
+  //   this.textArr.push(this.text)
+  //   this.text = ""
+  // }
 
 
-
-  name = ""
-  age = null
-  grade = null
-  subjects = ""
-  street = ""
-  city = ""
-  zip = null
-
-  userArry : any[] = []
+  // show(){
+  //   for(let el of this.textArr){
+  //     console.log(el)
+  //   }
+  // }
 
 
 
-  addButton(){
+  // name = ""
+  // age = null
+  // grade = null
+  // subjects = ""
+  // street = ""
+  // city = ""
+  // zip = null
 
-    this.userArry.push({
-      name1: this.name,
-      Age: this.age,
-      Grade: this.grade,
-      Subject: this.subjects,
+  // userArry : any[] = []
 
-      Addres:{
-        Street: this.street,
-        City: this.city,
-        Zip: this.zip
-      }
-    })
 
-    this.name = ""
-    this.age = null
-    this.grade = null
-    this.subjects = ""
-    this.street = ""
-    this.city = ""
-    this.zip = null
 
-    console.log(this.userArry)
+  // addButton(){
+
+  //   this.userArry.push({
+  //     name1: this.name,
+  //     Age: this.age,
+  //     Grade: this.grade,
+  //     Subject: this.subjects,
+
+  //     Addres:{
+  //       Street: this.street,
+  //       City: this.city,
+  //       Zip: this.zip
+  //     }
+  //   })
+
+  //   this.name = ""
+  //   this.age = null
+  //   this.grade = null
+  //   this.subjects = ""
+  //   this.street = ""
+  //   this.city = ""
+  //   this.zip = null
+
+  //   console.log(this.userArry)
   
-  }
+  // }
 
-  showli = "SHOW"
-  showlist = false
+  // showli = "SHOW"
+  // showlist = false
 
-  showBitton(){
-    this.showli == "SHOW" ? this.showli = "HIDE" : this.showli = "SHOW"
-    this.showlist == false ? this.showlist = true : this.showlist = false
-  }
+  // showBitton(){
+  //   this.showli == "SHOW" ? this.showli = "HIDE" : this.showli = "SHOW"
+  //   this.showlist == false ? this.showlist = true : this.showlist = false
+  // }
 }

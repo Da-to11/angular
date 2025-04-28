@@ -1,0 +1,12 @@
+
+<div class="conteiner">
+    <div *ngFor="let el of UsersArry" class="cards">
+        <img [src]="el.avatar" alt="">
+        <div class="body">
+            <h3>{{el.first_name}}</h3>
+            <p>{{el.last_name}}</p>
+            <p>{{el.email}}</p>
+            <p>id : {{el.id}}</p>
+        </div>
+    </div>
+</div>
