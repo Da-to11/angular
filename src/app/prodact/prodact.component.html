@@ -1,0 +1,16 @@
+
+
+
+<div class="man">
+    <div class="cards" *ngFor="let el of prodacts">
+        <img [src]="el.image" alt="">
+        <div class="body">
+            <p>{{el.id}}</p>
+            <p>{{el.title}}</p>
+            <p>{{el.price}}</p>
+            <p>{{el.category}}</p>
+        </div>
+        <button routerLink="/prodact/{{el.id}}" >details</button>
+    </div>
+</div>
+
