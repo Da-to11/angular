@@ -1,0 +1,18 @@
+
+
+<div class="man">
+    <div class="cards"  *ngFor="let el of beuty">
+        <img routerLink="/product/{{el.id}}" [src]="el.thumbnail" alt="">
+        <div class="body">
+            <p>{{el.id}}</p>
+            <p>{{el.brand}}</p>
+            <p>{{el.category}}</p>
+            <p>{{el.price}}</p>
+            <p>{{el.rating}}</p>
+            <p>{{el.stock}}</p>
+            <p>{{el.tags}}</p>
+            <p>{{el.dimensions.width}}</p>
+        </div>
+    </div>
+</div>
+
