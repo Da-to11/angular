@@ -10,10 +10,7 @@ export class bet {
     discountPercentage!: number;
     rating!: number;
     stock!: number;
-    tags!: [
-        string,
-        string,
-    ];
+    tags!: string[];
     brand!: string;
     sku!: string;
     weight!: number;
@@ -21,17 +18,11 @@ export class bet {
     warrantyInformation!: string;
     shippingInformation!: string;
     availabilityStatus!: string;
-    reviews!: [
-        rew,
-        rew,
-        rew,
-    ];
+    reviews!: rew[];
     returnPolicy!: string;
     minimumOrderQuantity!: number;
     meta!: Meta;
-    images!: [
-        string
-    ];
+    images!: string[];
     thumbnail!: string;
 }
 
